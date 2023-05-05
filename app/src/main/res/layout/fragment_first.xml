@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment">
+
+   <ImageView
+       android:id="@+id/image_first"
+       android:layout_width="200dp"
+       android:layout_gravity="center"
+       android:layout_height="150dp"/>
+
+    <EditText
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:hint="Name"
+        android:id="@+id/edit_text_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+       android:layout_gravity="center" />
+
+    <EditText
+        android:hint="Email"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:id="@+id/edit_text_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+       android:layout_gravity="center" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button"
+        android:padding="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Hello World!"
+        android:textColor="@color/white"
+        android:layout_gravity="center" />
+</LinearLayout>
